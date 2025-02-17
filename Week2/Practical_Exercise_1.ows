@@ -2,14 +2,12 @@
 <scheme version="2.0" title="" description="">
 	<nodes>
 		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(100.0, 72.0)" />
-		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(533.0, 262.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(527.0, 253.0)" />
 		<node id="2" name="Melt" qualified_name="Orange.widgets.data.owmelt.OWMelt" project_name="Orange3" version="" title="Melt" position="(277.0, 54.0)" />
 		<node id="3" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(459.0, 41.0)" />
-		<node id="4" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Bar Plot" position="(817.0, 236.0)" />
-		<node id="5" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions" position="(817.0, 358.0)" />
-		<node id="6" name="Color" qualified_name="Orange.widgets.data.owcolor.OWColor" project_name="Orange3" version="" title="Color" position="(550.0, 474.0)" />
-		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(760.0, 472.0)" />
-		<node id="8" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(978.0, 505.0)" />
+		<node id="4" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Bar Plot" position="(863.0, 200.0)" />
+		<node id="5" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions" position="(858.0, 358.0)" />
+		<node id="6" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(527.0, 423.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
@@ -18,8 +16,6 @@
 		<link id="3" source_node_id="1" sink_node_id="4" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
 		<link id="4" source_node_id="1" sink_node_id="5" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
 		<link id="5" source_node_id="1" sink_node_id="6" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
-		<link id="6" source_node_id="6" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="7" source_node_id="7" sink_node_id="8" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -111,101 +107,7 @@ lCiMBnZhbHVlc5R9lCiMBGN2YXKUjAVZRUFSIJRLZYaUjA5udW1iZXJfb2ZfYmluc5RLBEr+////
 hpSMDXNlbGVjdGVkX2JhcnOUj5RK/v///4aUjAN2YXKUjARHRFAglEtmhpRoDEsCdYwKYXR0cmli
 dXRlc5R9lChoF0sBaB9LAnWMBW1ldGFzlH2UjAdDb3VudHJ5lEsBc3ViYXUu
 </properties>
-		<properties node_id="6" format="pickle">gASVQhQAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
-V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAgYAAACTAAAEhwAAApEAAAIHAAAAsQAABIYAAAKQ
-AAAAAAAAAAAGAAAAAgcAAACxAAAEhgAAApCUjBVzZWxlY3RlZF9zY2hlbWFfaW5kZXiUSwCMC19f
-dmVyc2lvbl9flEsCjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OU
-jAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojApjb250X2Rlc2NzlF2UjBtPcmFuZ2Uud2lk
-Z2V0cy5kYXRhLm93Y29sb3KUjAxDb250QXR0ckRlc2OUk5QpgZR9lCiMA3ZhcpSMFE9yYW5nZS5k
-YXRhLnZhcmlhYmxllIwNbWFrZV92YXJpYWJsZZSTlGgYjBJDb250aW51b3VzVmFyaWFibGWUk5RO
-jARHRFAglIeUUpR9lCiMBV9uYW1llGgdjA5fY29tcHV0ZV92YWx1ZZROjAt1bmtub3duX3N0cpSP
-lCiMAJRHf/gAAAAAAACMAk5BlE6MAX6UjAE/lIwBLpSMA25hbpSQjA9zb3VyY2VfdmFyaWFibGWU
-TowGc3BhcnNllImMCmF0dHJpYnV0ZXOUfZSMD19tYXhfcm91bmRfZGlmZpRLAIwTX251bWJlcl9v
-Zl9kZWNpbWFsc5RLA4wPYWRqdXN0X2RlY2ltYWxzlEsCjAtfZm9ybWF0X3N0cpSMAiVnlIwIX3Bh
-bGV0dGWUjCJPcmFuZ2Uud2lkZ2V0cy51dGlscy5jb2xvcnBhbGV0dGVzlIwRQ29udGludW91c1Bh
-bGV0dGWUk5QpgZR9lCiMBG5hbWWUjBVsaW5lYXJfYmd5d18yMF85OF9jNjaUjA1mcmllbmRseV9u
-YW1llIwRQmx1ZS1HcmVlbi1ZZWxsb3eUjAhjYXRlZ29yeZSMBkxpbmVhcpSMB3BhbGV0dGWUjBVu
-dW1weS5jb3JlLm11bHRpYXJyYXmUjAxfcmVjb25zdHJ1Y3SUk5SMBW51bXB5lIwHbmRhcnJheZST
-lEsAhZRDAWKUh5RSlChLAU0AAUsDhpRoRIwFZHR5cGWUk5SMAnUxlImIh5RSlChLA4wBfJROTk5K
-/////0r/////SwB0lGKJQgADAAAFAKwGAqwGBawHCK0HC60IDq0IEK4IEq4JFK4JFq8KGK8KGq8K
-HLALHbALH7ALILEMIrEMI7EMJbEMJrINKLINKbINKrINLLMNLbMNLrMNMLMOMbQOMrQOM7QONbQO
-NrQON7QOOLQOOrUOO7UOPLUOPbUOPrUOQLUNQbUNQrUNQ7UNRLUNRrUNR7UNSLUMSbUMSrUMTLQM
-TbQLTrQLT7QLULQKUbMKU7MKVLMJVbIJVrIIV7EIWbEIWrAHW68HXK4GXq4GX60GYKwGYaoGY6kH
-ZKgIZacKZqUMZ6QNaKMPaqERa6ATbJ4UbZwWbpsYb5kZcZgbcpYdc5QedJIfdZEhdo8id40jeIsk
-eYkleocmfIUnfYMofoEpf38qgH0rgXssgnksg3cthHUuhXIuhnAuh24viWwvimkwi2cwjGQwjWIw
-jmAwj10xkFsxkVkxklYyk1QylFIzlVA0lk40l0w1mEo2mUg3mkc4m0U5nEM6nUE7nUA8nj49nzw+
-oDtAoTlBojdCozZEpDRFpDNHpTFIpjBKpy5MqC1NqCxPqSpRqilSqydUrCZWrCRYrSNZriJbryBd
-rx9fsB5hsRxjshtlshpnsxhptBdrtBZttRRvthNxthJztxB1uA93uA55uQx7ugt9ugp/uwiCvAeE
-vAaGvQaIvgWKvgSMvwSPvwORwAOTwAOVwQKYwgKawgKcwwKewwKgxAOixAOlxQOnxgOpxgOrxwSt
-xwSvyASxyAWzyQW1yga3yga5ywe7ywi9zAm/zArBzQvCzgzEzg3Gzw7Izw/K0BDM0RHN0RLP0hPR
-0hTT0xXU1BfW1BjY1RnZ1hrb1hzd1x3e1x7g2CDh2SHj2iLk2iTm2yXn3Cfp3Cjq3Srr3izs3y3u
-3y/v4DHw4TPx4jTy4zbz4zjz5Dv05T315j/150L26EX26Uj36kv460/47FP57Vj67V367mL772f8
-8G388XP98Xn98oD+84f+847/9Jb/9Z//9aj/9rH/97v/98b++NL9+N77+ev5+fmUdJRijAluYW5f
-Y29sb3KUS4BLgEuAh5SMBWZsYWdzlGg1jA1QYWxldHRlLkZsYWdzlJOUSwCFlFKUdWJ1YowIbmV3
-X25hbWWUTowQbmV3X3BhbGV0dGVfbmFtZZSMDmxpbmVhcl9pbmZlcm5vlHViYYwKZGlzY19kZXNj
-c5RdlChoEowMRGlzY0F0dHJEZXNjlJOUKYGUfZQoaBdoGihoGIwQRGlzY3JldGVWYXJpYWJsZZST
-lE6MBVlFQVIglCiMBDIwMDCUjAQyMDAxlIwEMjAwMpSMBDIwMDOUjAQyMDA0lIwEMjAwNZSMBDIw
-MDaUjAQyMDA3lHSUdJRSlH2UKGghaGdoIk5oI2gkaCtOaCyJaC19lIwMX3ZhbHVlX2luZGV4lH2U
-KGhoSwBoaUsBaGpLAmhrSwNobEsEaG1LBWhuSwZob0sHdYwHX2NvbG9yc5RoQ2hGSwCFlGhIh5RS
-lChLAUsISwOGlGhQiUMYRr767UYvqvIr9a4y//8A/wD/AP//gAD/lHSUYnViaFxOjApuZXdfY29s
-b3JzlE6MCm5ld192YWx1ZXOUTnViaGIpgZR9lChoF2gaKGhmTowHQ291bnRyeZQojAdBbGJhbmlh
-lIwJQXJnZW50aW5hlIwHQXJtZW5pYZSMCUF1c3RyYWxpYZSMB0F1c3RyaWGUjApBemVyYmFpamFu
-lIwHQmFoYW1hc5SMB0JhaHJhaW6UjApCYW5nbGFkZXNolIwHQmVsYXJ1c5SMB0JlbGdpdW2UjAZC
-ZWxpemWUjAVCZW5pbpSMBkJodXRhbpSMB0JvbGl2aWGUjBZCb3NuaWEgYW5kIEhlcnplZ292aW5h
-lIwIQm90c3dhbmGUjAZCcmF6aWyUjBFCcnVuZWkgRGFydXNzYWxhbZSMCEJ1bGdhcmlhlIwMQnVy
-a2luYSBGYXNvlIwIQ2FtYm9kaWGUjAhDYW1lcm9vbpSMBkNhbmFkYZSMCkNhcGUgVmVyZGWUjARD
-aGFklIwFQ2hpbGWUjC5DaGluYSwgSG9uZyBLb25nIFNwZWNpYWwgQWRtaW5pc3RyYXRpdmUgUmVn
-aW9ulIwqQ2hpbmEsIE1hY2FvIFNwZWNpYWwgQWRtaW5pc3RyYXRpdmUgUmVnaW9ulIwIQ29sb21i
-aWGUjApDb3N0YSBSaWNhlIwNQ290ZSBkJ0l2b2lyZZSMB0Nyb2F0aWGUjARDdWJhlIwGQ3lwcnVz
-lIwOQ3plY2ggUmVwdWJsaWOUjAdEZW5tYXJrlIwSRG9taW5pY2FuIFJlcHVibGljlIwHRWN1YWRv
-cpSMBUVneXB0lIwLRWwgU2FsdmFkb3KUjAdFc3RvbmlhlIwHRmlubGFuZJSMBkZyYW5jZZSMB0dl
-cm1hbnmUjAZHcmVlY2WUjAlHdWF0ZW1hbGGUjAZHdWluZWGUjAhIb25kdXJhc5SMB0h1bmdhcnmU
-jAdJY2VsYW5klIwFSW5kaWGUjAlJbmRvbmVzaWGUjBpJcmFuIChJc2xhbWljIFJlcHVibGljIG9m
-KZSMB0lyZWxhbmSUjAZJc3JhZWyUjAVJdGFseZSMBUphcGFulIwKS2F6YWtoc3RhbpSMBUtlbnlh
-lIwSS29yZWEsIFJlcHVibGljIG9mlIwGS3V3YWl0lIwKS3lyZ3l6c3RhbpSMBkxhdHZpYZSMB0xl
-c290aG+UjAlMaXRodWFuaWGUjApMdXhlbWJvdXJnlIwKTWFkYWdhc2NhcpSMBk1hbGF3aZSMCE1h
-bGF5c2lhlIwITWFsZGl2ZXOUjARNYWxplIwFTWFsdGGUjAlNYXVyaXRpdXOUjAZNZXhpY2+UjAdN
-b3JvY2NvlIwKTW96YW1iaXF1ZZSMB05hbWliaWGUjAtOZXRoZXJsYW5kc5SMC05ldyBaZWFsYW5k
-lIwJTmljYXJhZ3VhlIwFTmlnZXKUjAZOb3J3YXmUjB5PY2N1cGllZCBQYWxlc3RpbmlhbiBUZXJy
-aXRvcnmUjARPbWFulIwIUGFraXN0YW6UjAZQYW5hbWGUjBBQYXB1YSBOZXcgR3VpbmVhlIwIUGFy
-YWd1YXmUjARQZXJ1lIwLUGhpbGlwcGluZXOUjAZQb2xhbmSUjAhQb3J0dWdhbJSMC1B1ZXJ0byBS
-aWNvlIwFUWF0YXKUjBNSZXB1YmxpYyBvZiBNb2xkb3ZhlIwHUm9tYW5pYZSMElJ1c3NpYW4gRmVk
-ZXJhdGlvbpSMBlJ3YW5kYZSMC1NhaW50IEx1Y2lhlIwKU2FuIE1hcmlub5SMDFNhdWRpIEFyYWJp
-YZSMB1NlbmVnYWyUjAxTaWVycmEgTGVvbmWUjAlTaW5nYXBvcmWUjAhTbG92YWtpYZSMCFNsb3Zl
-bmlhlIwMU291dGggQWZyaWNhlIwFU3BhaW6UjAlTcmkgTGFua2GUjAZTd2VkZW6UjAtTd2l0emVy
-bGFuZJSMFFN5cmlhbiBBcmFiIFJlcHVibGljlIwKVGFqaWtpc3RhbpSME1RhbnphbmlhIC0gTWFp
-bmxhbmSUjAhUaGFpbGFuZJSMKVRoZSBmb3JtZXIgWXVnb3NsYXYgUmVwdWJsaWMgb2YgTWFjZWRv
-bmlhlIwTVHJpbmlkYWQgYW5kIFRvYmFnb5SMB1R1bmlzaWGUjAZUdXJrZXmUjBhUdXJrcyBhbmQg
-Q2FpY29zIElzbGFuZHOUjAZVZ2FuZGGUjAdVa3JhaW5llIwOVW5pdGVkIEtpbmdkb22UjA1Vbml0
-ZWQgU3RhdGVzlIwHVXJ1Z3VheZSMCVZlbmV6dWVsYZSMCFZpZXQgTmFtlIwGWmFtYmlhlIwIWmlt
-YmFid2WUdJR0lFKUfZQoaCFogmgiTmgjaCRoK05oLIloLX2UaHV9lChog0sAaIRLAWiFSwJohksD
-aIdLBGiISwVoiUsGaIpLB2iLSwhojEsJaI1LCmiOSwtoj0sMaJBLDWiRSw5okksPaJNLEGiUSxFo
-lUsSaJZLE2iXSxRomEsVaJlLFmiaSxdom0sYaJxLGWidSxponksbaJ9LHGigSx1ooUseaKJLH2ij
-SyBopEshaKVLImimSyNop0skaKhLJWipSyZoqksnaKtLKGisSylorUsqaK5LK2ivSyxosEstaLFL
-LmiySy9os0swaLRLMWi1SzJotkszaLdLNGi4SzVouUs2aLpLN2i7SzhovEs5aL1LOmi+Sztov0s8
-aMBLPWjBSz5owks/aMNLQGjES0FoxUtCaMZLQ2jHS0RoyEtFaMlLRmjKS0doy0tIaMxLSWjNS0po
-zktLaM9LTGjQS01o0UtOaNJLT2jTS1Bo1EtRaNVLUmjWS1No10tUaNhLVWjZS1Zo2ktXaNtLWGjc
-S1lo3UtaaN5LW2jfS1xo4EtdaOFLXmjiS19o40tgaORLYWjlS2Jo5ktjaOdLZGjoS2Vo6UtmaOpL
-Z2jrS2ho7EtpaO1LamjuS2to70tsaPBLbWjxS25o8ktvaPNLcGj0S3Fo9UtyaPZLc2j3S3Ro+Et1
-aPlLdmj6S3do+0t4aPxLeWj9S3po/kt7aP9LfGoAAQAAS31qAQEAAEt+agIBAABLf2oDAQAAS4Bq
-BAEAAEuBdWh3aENoRksAhZRoSIeUUpQoSwFLgksDhpRoUIlChgEAANcAAIw8/wKIAACsx5j/AP9/
-0WwAT/+lMFg7AABXWQAA3QD9z6F1ary3/5W1eMAEuWRUdHkAAAd02P71kABLAI96AP9yZu65uV5+
-Zpvk/+wAd6Z7uVoApATGAJ5LAJw7UMvEAHGCmACvioOI/103OzkAAP3A/77nwNttAZO4tuRS/y9T
-gsRmkFViIMWfcgSCh2nngIAnkG20/04z/4ajAv4Dy8KmxcVXRnZYPQFoQgDW1drg//n/AGposMOY
-AOHNnNqW/7sD/ZJSgqAAc1ebVdOMjzdFJ5elw46NX/9GAMj/+q5t/27Qp7//jIxUsXg2Gf+geakA
-H/8cRV8RI2eXlP9flExndFOSzKpxMQLP/gDEbGE1XZDUL7/VfFFFok4jDHxaAP/ORIMCz039/4kA
-PXtSXAB0naqDmIFxj2Jl/sM0ic0pR/+atcNduyFoAgCOZWOAI4mHv5jd1c5/WNK3W2EAbplURLDH
-2/L/0gDsAs2GvUUAxXqdf3JxR5P/ugBUwa2U7D+kFpR0lGJ1YmhcjAdDb3VudHJ5lGh+Tmh/TnVi
-ZWgGSwJ1aC1oZ12UKGhoaGloamhraGxobWhuaG9lhpRoHUsChpSGlIwFbWV0YXOUaIJdlChog2iE
-aIVohmiHaIhoiWiKaItojGiNaI5oj2iQaJFokmiTaJRolWiWaJdomGiZaJpom2icaJ1onmifaKBo
-oWiiaKNopGilaKZop2ioaKloqmiraKxorWiuaK9osGixaLJos2i0aLVotmi3aLhouWi6aLtovGi9
-aL5ov2jAaMFowmjDaMRoxWjGaMdoyGjJaMpoy2jMaM1ozmjPaNBo0WjSaNNo1GjVaNZo12jYaNlo
-2mjbaNxo3WjeaN9o4GjhaOJo42jkaOVo5mjnaOho6WjqaOto7GjtaO5o72jwaPFo8mjzaPRo9Wj2
-aPdo+Gj5aPpo+2j8aP1o/mj/agABAABqAQEAAGoCAQAAagMBAABqBAEAAGWGlIWUjApjbGFzc192
-YXJzlCl1YmF1Lg==
-</properties>
-		<properties node_id="7" format="literal">{'auto_commit': False, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01p\x00\x00\x00\xb6\x00\x00\x04\x93\x00\x00\x03.\x00\x00\x01q\x00\x00\x00\xd4\x00\x00\x04\x92\x00\x00\x03-\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01q\x00\x00\x00\xd4\x00\x00\x04\x92\x00\x00\x03-', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
-		<properties node_id="8" format="literal">{'add_type_annotations': True, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Microsoft Excel spreadsheet (*.xlsx)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xcd\x00\x00\x01\xa9\x00\x00\x0b\xb3\x00\x00\x02G\x00\x00\n\xce\x00\x00\x01\xc2\x00\x00\x0b\xb2\x00\x00\x02F\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xce\x00\x00\x01\xc2\x00\x00\x0b\xb2\x00\x00\x02F', 'stored_name': 'untitled.xlsx', 'stored_path': 'C:/Users/Faisal/Desktop', '__version__': 3}</properties>
+		<properties node_id="6" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\n\xcd\x00\x00\x01\xa9\x00\x00\x0co\x00\x00\x02G\x00\x00\n\xce\x00\x00\x01\xc2\x00\x00\x0cn\x00\x00\x02F\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\n\xce\x00\x00\x01\xc2\x00\x00\x0cn\x00\x00\x02F', 'stored_name': 'FE_Orange_CountryExpenditures_Longformat.csv', 'stored_path': '.', '__version__': 3}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
